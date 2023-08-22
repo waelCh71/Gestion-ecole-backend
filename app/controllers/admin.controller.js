@@ -59,11 +59,11 @@ exports.findOne = (req, res) => {
 // Update a admin identified by the adminId in the request
 exports.update = (req, res) => {
     // Validate Request
-    if(!req.body.username) {
+    /*if(!req.body.username) {
         return res.status(400).send({
             message: "admin content can not be empty"
         });
-    }
+    }*/
 
     // Find admin and update it with the request body
     Admin.findByIdAndUpdate(req.params.adminId, {

@@ -13,7 +13,6 @@ const StudentSchema = mongoose.Schema({
     },
 
     phone:String,
-    classe:String,
     idClasse:String,
     idParent:String,
     numInscription:String,

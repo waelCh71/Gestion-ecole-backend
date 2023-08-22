@@ -42,6 +42,7 @@ require('./app/routes/schedule.routes.js')(app);
 require('./app/routes/grades.routes.js')(app);
 require('./app/routes/classe.routes.js')(app);
 require('./app/routes/message.routes.js')(app);
+require('./app/routes/absence.routes.js')(app);
 
 // listen for requests
 app.listen(3000,   () => {
